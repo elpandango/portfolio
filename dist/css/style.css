@@ -438,6 +438,10 @@ section#about .cols .left-side .image {
 	margin-bottom: 20px;
 }
 
+section#about .cols .left-side .image img {
+	max-width: 100%;
+}
+
 section#about .cols .left-side .download {
 	display: inline-block;
 	width: 265px;
@@ -564,7 +568,7 @@ section#skills .skill-item .item-wrap .name {
 
 section#skills .skill-item .item-wrap .time {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: normal;
 	font-weight: bold;
 }
@@ -948,6 +952,7 @@ section#about .cols .right-side {
 	float: none;
 	width: 370px;
 	margin: 0 auto;
+	padding-left: 0;
 }
 
 section#skills .skill-graphs {
