@@ -125,6 +125,10 @@ h6 {
 	text-align: center;
 }
 
+p {
+	color: #5F5F5F;
+}
+
 section h2 {
 	font-size: 6em;
 	font-weight: bold;
@@ -272,7 +276,7 @@ section#navbar ul li a .fa {
 }
 
 section#about {
-	padding: 90px 0;
+	padding: 70px 0 40px;
 }
 
 section#about .decorative-line {
@@ -335,7 +339,6 @@ section#about .cols .right-side h3 {
 
 section#about .cols .right-side p {
 	font-size: 1.4em;
-	color: #5F5F5F;
 }
 
 section#about .row {
@@ -366,5 +369,270 @@ section#about .row .col-right span {
 section#about .row .col-left p,
 section#about .row .col-right p {
 	font-size: 1.6em;
+}
+
+section#skills {
+	padding: 60px 0;
+}
+
+section#skills .text-box {
+	width: 1000px;
+	margin: 0 auto 50px;
+}
+
+section#skills .text-box .decorative-line {
+	margin-bottom: 30px;
+}
+
+section#skills .text-box p {
+	font-size: 1.4em;
+	text-align: center;
+}
+
+section#skills .skill-graphs {
+	text-align: center;
+}
+
+section#skills .skill-graphs .skill-item {
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+section#skills .skill-item .item-wrap {
+	width: 175px;
+	height: 175px;
+	text-align: center;
+	border: 16px solid grey;
+	border-radius: 50%;
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+section#skills .skill-item .item-wrap .name {
+	text-align: center;
+	font-size: 2em;
+	line-height: normal;
+}
+
+section#skills .skill-item .item-wrap .time {
+	text-align: center;
+	font-size: 2em;
+	line-height: normal;
+	font-weight: bold;
+}
+
+section#portfolio {
+	background-color: #F6F6F6;
+	padding: 50px 0;
+}
+
+section#portfolio .decorative-line {
+	margin-bottom: 40px;
+}
+
+section#portfolio .decorative-line .text {
+	background-color: #F6F6F6;
+}
+
+section#portfolio .works-grid {
+	width: 890px;
+	margin: 0 auto;
+}
+
+section#portfolio .grid-item {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	width: 290px;
+	height: 190px;
+	text-decoration: none;
+	position: relative;
+	-webkit-transition: .4s;
+	transition: .4s;
+	overflow: hidden;
+}
+
+section#portfolio .grid-item:nth-child(3n + 3) {
+	margin-right: 0;
+}
+
+section#portfolio .grid-item:hover {
+	box-shadow: 0px 0px 11px rgba(37, 37, 37, 0.44), 0px 0px 11px rgba(37, 37, 37, 0.44);
+}
+
+section#portfolio .grid-item:hover .description .name {
+	top: 0;
+}
+
+section#portfolio .grid-item:hover .description .text {
+	bottom: 0;
+}
+
+section#portfolio .grid-item .image {
+	width: inherit;
+	height: inherit;
+}
+
+section#portfolio .grid-item .image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+section#portfolio .grid-item .description {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+section#portfolio .grid-item .description .name,
+section#portfolio .grid-item .description .text {
+	position: absolute;
+	left: 0;
+	right: 0;
+	font-size: 1.1em;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: rgba(37, 37, 37, 0.44);
+	color: #FFF;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+section#portfolio .grid-item .description .name {
+	top: -40px;
+	font-size: 1.5em;
+}
+
+section#portfolio .grid-item .description .text {
+	bottom: -54px;
+}
+
+section#contact {
+	min-height: 800px;
+	background: url("/library/img/contact-bg.jpg") no-repeat center;
+	background-size: cover;
+	padding: 50px 0;
+}
+
+section#contact h2 {
+	color: #FFF;
+}
+
+section#contact .decorative-line {
+	margin-bottom: 40px;
+}
+
+section#contact .decorative-line .text {
+	color: #FFF;
+	background-color: #363837;
+}
+
+section#contact .contact-box {
+	width: 1000px;
+	margin: 0 auto 60px;
+	text-align: left;
+}
+
+section#contact .contact-item {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+
+section#contact .contact-item .image {
+	width: 80px;
+	height: 80px;
+	line-height: 78px;
+	background-color: #3B5998;
+	float: left;
+	text-align: center;
+}
+
+section#contact .contact-item .fa {
+	font-size: 3.5em;
+	color: #FFF;
+	vertical-align: middle;
+}
+
+section#contact .contact-item .description {
+	float: left;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+
+section#contact .contact-item .title {
+	font-size: 2.4em;
+	text-transform: uppercase;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+
+section#contact .contact-item .text {
+	font-size: 1.4em;
+	color: #BCBCBC;
+}
+
+section#contact .contact-form {
+	width: 1000px;
+	margin: 0 auto 80px;
+}
+
+section#contact .contact-form input {
+	background-color: rgba(255, 255, 255, 0.2);
+	border: none;
+	height: 55px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	color: #FFF;
+	width: 49%;
+	float: left;
+	outline: none;
+}
+
+section#contact .contact-form input[type="email"] {
+	float: right;
+}
+
+section#contact .contact-form textarea {
+	background-color: rgba(255, 255, 255, 0.2);
+	border: none;
+	resize: none;
+	outline: none;
+	font-family: 'Open Sans';
+	color: #FFF;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-top: 15px;
+	width: 100%;
+	min-height: 120px;
+	margin-bottom: 12px;
+}
+
+section#contact .contact-form button {
+	width: 100%;
+	height: 60px;
+	background-color: #3B5998;
+	line-height: 60px;
+	text-align: center;
+	color: #FFF;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+section#contact .copyright {
+	font-size: 1.4em;
+	color: #828181;
+	text-align: center;
 }
 
