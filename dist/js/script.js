@@ -47,10 +47,10 @@ $(document).ready(function () {
 
         var e_height = $(skillbox).outerHeight(); // Полная высота блока со счетчиками
 
-        if(w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height){
+        if(w_top + 300 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height){
             $(".spincrement").spincrement({
                 thousandSeparator: "",
-                duration: 1500
+                duration: 2000
             });
 
             show = false;
