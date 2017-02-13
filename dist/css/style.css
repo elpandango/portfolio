@@ -145,13 +145,13 @@ section h2 {
 }
 
 section#main {
-	min-height: 800px;
+	min-height: 100vh;
 	background: url("/library/img/bg-2.jpg") no-repeat center;
 	background-size: cover;
 }
 
 section#main .content {
-	min-height: 800px;
+	min-height: 100vh;
 }
 
 section#main .text-box {
@@ -1002,7 +1002,7 @@ section#portfolio .grid-item .description .text {
 
 section#main .content,
 section#main {
-	min-height: 700px;
+	min-height: 100vh;
 }
 
 section#main .text-box {
